@@ -13,10 +13,10 @@ app.controller("b",function($scope,$http,geudata){
 	geudata.ajax("http://www.somenote.cn:1510/test","get",function(e){
 		$scope.data=e
 	})
-	geudata.ajax2("http://www.somenote.cn:1510/test2","get",function(e){
+	geudata.ajax("http://www.somenote.cn:1510/test2","get",function(e){
 		$scope.data2=e
 	})
-	geudata.ajax3("http://www.somenote.cn:1510/aut","get",function(e){
+	geudata.ajax("http://www.somenote.cn:1510/aut","get",function(e){
 		$scope.data3=e
 	})
 	

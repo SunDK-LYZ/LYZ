@@ -13,22 +13,6 @@ angular.module("lyz",[]).directive("t",function(){
 			}).success(function(e){
 				callback(e)
 			})
-		},
-		ajax2:function(url,method,callback){
-			$http({
-				url:url,
-				method:method
-			}).success(function(e){
-				callback(e)
-			})
-		},
-		ajax3:function(url,method,callback){
-			$http({
-				url:url,
-				method:method
-			}).success(function(e){
-				callback(e)
-			})
 		}
 	}
 })
